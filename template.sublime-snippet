@@ -1,0 +1,48 @@
+<snippet>
+	<content><![CDATA[
+#include<bits/stdc++.h>
+#define FastIO      ios_base::sync_with_stdio(0);cin.tie(0),cout.tie(0)
+#define pb          push_back
+#define mp          make_pair
+#define mem(x,i)    memset(x,i,sizeof(x))
+#define ff          first
+#define ss          second
+#define all(x)      x.begin(),x.end()
+#define fileout     freopen("output.txt","w",stdout)
+#define filein      freopen("input.txt","r",stdin)
+#define w(x)        cout << (#x) << " is " << x << "\n" ;
+#define mod         1000000007
+#define INF         1000000000
+#define INF18       1e18
+#define for1(i,n)   for( int i = 1 ; i<=n ; i++ )
+#define for0(i,n)   for( int i = 0 ; i<n ; i++ )
+typedef long long   ll;
+const char nl = '\n';
+ 
+using namespace std;
+
+int gcd(int a, int b)
+{
+    if (b == 0)
+        return a;
+    return gcd(b, a % b);
+}
+
+void solve()
+{
+    $0
+}
+
+int main()
+{
+    FastIO ;
+    int t = 1;
+    cin >> t;
+    while(t--) solve();
+    return 0;
+}]]></content>
+		<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+		<tabTrigger>cpp</tabTrigger>
+		<!-- Optional: Set a scope to limit where the snippet will trigger -->
+		<!-- <scope>source.python</scope> -->
+</snippet>
